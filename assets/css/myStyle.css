@@ -1,0 +1,327 @@
+/* signika-300 - latin */
+@font-face {
+	font-family: 'Signika';
+	font-style: normal;
+	font-weight: 300;
+	src: url('../fonts/signika-v12-latin/signika-v12-latin/signika-v12-latin-300.eot');
+	/* IE9 Compat Modes */
+	src: local(''),
+		url('../fonts/signika-v12-latin/signika-v12-latin/signika-v12-latin-300.eot?#iefix') format('embedded-opentype'),
+		/* IE6-IE8 */
+		url('../fonts/signika-v12-latin/signika-v12-latin/signika-v12-latin-300.woff2') format('woff2'),
+		/* Super Modern Browsers */
+		url('../fonts/signika-v12-latin/signika-v12-latin/signika-v12-latin-300.woff') format('woff'),
+		/* Modern Browsers */
+		url('../fonts/signika-v12-latin/signika-v12-latin/signika-v12-latin-300.ttf') format('truetype'),
+		/* Safari, Android, iOS */
+		url('../fonts/signika-v12-latin/signika-v12-latin/signika-v12-latin-300.svg#Signika') format('svg');
+	/* Legacy iOS */
+}
+
+/* signika-regular - latin */
+@font-face {
+	font-family: 'Signika';
+	font-style: normal;
+	font-weight: 400;
+	src: url('../fonts/signika-v12-latin/signika-v12-latin/signika-v12-latin-regular.eot');
+	/* IE9 Compat Modes */
+	src: local(''),
+		url('../fonts/signika-v12-latin/signika-v12-latin/signika-v12-latin-regular.eot?#iefix') format('embedded-opentype'),
+		/* IE6-IE8 */
+		url('../fonts/signika-v12-latin/signika-v12-latin/signika-v12-latin-regular.woff2') format('woff2'),
+		/* Super Modern Browsers */
+		url('../fonts/signika-v12-latin/signika-v12-latin/signika-v12-latin-regular.woff') format('woff'),
+		/* Modern Browsers */
+		url('../fonts/signika-v12-latin/signika-v12-latin/signika-v12-latin-regular.ttf') format('truetype'),
+		/* Safari, Android, iOS */
+		url('../fonts/signika-v12-latin/signika-v12-latin/signika-v12-latin-regular.svg#Signika') format('svg');
+	/* Legacy iOS */
+}
+
+/* signika-500 - latin */
+@font-face {
+	font-family: 'Signika';
+	font-style: normal;
+	font-weight: 500;
+	src: url('../fonts/signika-v12-latin/signika-v12-latin/signika-v12-latin-500.eot');
+	/* IE9 Compat Modes */
+	src: local(''),
+		url('../fonts/signika-v12-latin/signika-v12-latin/signika-v12-latin-500.eot?#iefix') format('embedded-opentype'),
+		/* IE6-IE8 */
+		url('../fonts/signika-v12-latin/signika-v12-latin/signika-v12-latin-500.woff2') format('woff2'),
+		/* Super Modern Browsers */
+		url('../fonts/signika-v12-latin/signika-v12-latin/signika-v12-latin-500.woff') format('woff'),
+		/* Modern Browsers */
+		url('../fonts/signika-v12-latin/signika-v12-latin/signika-v12-latin-500.ttf') format('truetype'),
+		/* Safari, Android, iOS */
+		url('../fonts/signika-v12-latin/signika-v12-latin/signika-v12-latin-500.svg#Signika') format('svg');
+	/* Legacy iOS */
+}
+
+/* signika-600 - latin */
+@font-face {
+	font-family: 'Signika';
+	font-style: normal;
+	font-weight: 600;
+	src: url('../fonts/signika-v12-latin/signika-v12-latin/signika-v12-latin-600.eot');
+	/* IE9 Compat Modes */
+	src: local(''),
+		url('../fonts/signika-v12-latin/signika-v12-latin/signika-v12-latin-600.eot?#iefix') format('embedded-opentype'),
+		/* IE6-IE8 */
+		url('../fonts/signika-v12-latin/signika-v12-latin/signika-v12-latin-600.woff2') format('woff2'),
+		/* Super Modern Browsers */
+		url('../fonts/signika-v12-latin/signika-v12-latin/signika-v12-latin-600.woff') format('woff'),
+		/* Modern Browsers */
+		url('../fonts/signika-v12-latin/signika-v12-latin/signika-v12-latin-600.ttf') format('truetype'),
+		/* Safari, Android, iOS */
+		url('../fonts/signika-v12-latin/signika-v12-latin/signika-v12-latin-600.svg#Signika') format('svg');
+	/* Legacy iOS */
+}
+
+/* signika-700 - latin */
+@font-face {
+	font-family: 'Signika';
+	font-style: normal;
+	font-weight: 700;
+	src: url('../fonts/signika-v12-latin/signika-v12-latin/signika-v12-latin-700.eot');
+	/* IE9 Compat Modes */
+	src: local(''),
+		url('../fonts/signika-v12-latin/signika-v12-latin/signika-v12-latin-700.eot?#iefix') format('embedded-opentype'),
+		/* IE6-IE8 */
+		url('../fonts/signika-v12-latin/signika-v12-latin/signika-v12-latin-700.woff2') format('woff2'),
+		/* Super Modern Browsers */
+		url('../fonts/signika-v12-latin/signika-v12-latin/signika-v12-latin-700.woff') format('woff'),
+		/* Modern Browsers */
+		url('../fonts/signika-v12-latin/signika-v12-latin/signika-v12-latin-700.ttf') format('truetype'),
+		/* Safari, Android, iOS */
+		url('../fonts/signika-v12-latin/signika-v12-latin/signika-v12-latin-700.svg#Signika') format('svg');
+	/* Legacy iOS */
+}
+
+li {
+	font-family: 'Signika';
+}
+
+.text-grey {
+	color: rgb(149, 146, 146);
+}
+
+.text-grey-dark {
+	color: #333;
+}
+
+
+.no-margin-left {
+	margin-left: 0 !important;
+}
+
+.login-page {
+	width: 100%;
+	height: 100vh;
+	overflow: hidden;
+	background: url(../img/parallax/background1.jpg) !important;
+	background-attachment: fixed;
+}
+
+.login-box {
+	position: fixed;
+}
+
+.mixBlnd {
+	background-blend-mode: screen;
+}
+
+.font-style-1 {
+	font-size: 17px;
+	margin: 0;
+	padding-top: 0.5rem;
+	color: rgb(253, 253, 253);
+}
+
+.navbar-light .navbar-nav .nav-link {
+	color: white !important;
+}
+
+
+
+.body-admin {
+	background: #f7f7f7 !important;
+}
+
+.sidebar-blue-dark {
+	background: #162832 !important;
+}
+
+.navbar-gradient {
+	background: linear-gradient(135deg, rgb(1, 208, 184) 0%, rgba(0, 149, 182) 100%);
+}
+
+
+.img-icon {
+	margin-bottom: 3px;
+}
+
+.table-leaderboard tbody tr:nth-of-type(odd) {
+	background-color: none !important;
+}
+
+.table-leaderboard td {
+	padding: .5em !important;
+}
+
+.td-icon-leaderboard {
+	width: 67px;
+}
+
+.header-opening li {
+	padding: 0 10px;
+}
+
+/* footer admin */
+.main-footer {
+	position: fixed;
+	left: 250px;
+	bottom: 0;
+	right: 0;
+}
+
+/* end footer admin */
+
+
+#topheader .navbar-nav {
+	flex-direction: row !important;
+}
+
+#topheader .navbar-nav li>a {
+	text-transform: capitalize;
+	color: #333;
+	-webkit-transition: background-color .2s, color .2s;
+	transition: background-color .2s, color .2s;
+}
+
+#topheader .navbar-nav li>a:hover,
+#topheader .navbar-nav li>a:focus {
+	color: #fff;
+}
+
+#topheader .navbar-nav li.active>a {
+	border-radius: 14px;
+	background-color: #f1c40f;
+	padding: 10px 28px 11px 30px;
+	color: #fff;
+	font-size: 20px;
+	-webkit-transition: .2s;
+}
+
+#topheader .navbar-nav {
+	margin: 7.5px -15px
+}
+
+#topheader .navbar-nav>li>a {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	line-height: 20px
+}
+
+/* admin */
+.row-dashboard {
+	/* margin: 1.5em 0.5em !important; */
+	margin: 1.5em 0.5em 0.5em 0.5em !important;
+}
+
+.row-dashboard2 {
+	margin: 0.5em 0.5em !important;
+}
+
+.small-box {
+	margin-bottom: 10px !important;
+}
+
+.card-pendaftaran-wisuda #canvas {
+	height: 300px !important;
+}
+
+.slide-in {
+	z-index: 10;
+	/* to position it in front of the other content */
+	position: absolute;
+	overflow: hidden;
+	/* to prevent scrollbar appearing */
+}
+
+
+.slide-in.from-right {
+	right: 0;
+}
+
+.slide-in-content {
+	padding: 5px 20px;
+	background: #eee;
+	transition: transform .5s ease;
+	/* our nice transition */
+}
+
+.slide-in.from-right .slide-in-content {
+	transform: translateX(100%);
+	-webkit-transform: translateX(100%);
+}
+
+.slide-in.show .slide-in-content {
+	transform: translateX(0);
+	-webkit-transform: translateX(0);
+}
+
+.modal-detail-alumni .table-one td {
+	border-top: 0 !important;
+	padding: 4px !important;
+	border-bottom-width: 0 !important;
+}
+
+.img-avatar {
+	vertical-align: middle;
+	width: 100px;
+	height: 130px;
+	border-radius: 10%;
+}
+
+.table-alumni .button {
+	opacity: 0;
+}
+
+.table-alumni tr:hover .button {
+	opacity: 1;
+}
+
+/* end admin */
+
+@media (max-width:767px) {}
+
+@media (min-width:768px) {}
+
+/* ==== */
+
+@media (min-width:768px) {}
+
+/* ===== */
+
+
+
+@media (min-width: 768px) {
+	.navbar-toggle {
+
+		display: none;
+	}
+}
+
+/* responsive */
+@media (max-width: 1200px) and (min-width: 992px) {
+	.section-padding {
+		padding: 0 15em;
+	}
+}
+
+@media (min-width: 1200px) {
+	.section-padding {
+		padding: 0 15em;
+	}
+}

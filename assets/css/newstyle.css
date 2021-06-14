@@ -1,0 +1,307 @@
+.main-header {
+	background: linear-gradient(270deg, #005C8A 25.94%, rgba(176, 203, 240, 0) 66.04%), #10305D;
+}
+
+.main-sidebar {
+	background: #fff;
+}
+
+.navbar-light .navbar-nav .nav-link {
+	color: #fff;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+	color: #fff;
+}
+
+.nav-link .fa-bars {
+	color: #fff;
+}
+
+.color-primary {
+	color: #10305D;
+}
+
+.color-secondary {
+	color: #005C8A;
+}
+
+.color-warning {
+	color: #FDE71F;
+}
+
+.color-warning-light {
+	color: #fff173;
+}
+
+
+.color-grey-light {
+	color: #999999;
+}
+
+.color-dark-grey {
+	color: #3D3D3D;
+}
+
+.color-danger-custom {
+	color: red;
+}
+
+.font-bold-custom {
+	font-weight: 500;
+}
+
+.button-shadow {
+	box-shadow: 5px 5px #dedede38;
+}
+
+.label-success-custom {
+	background: #2DA341;
+	border-radius: 3px;
+	color: #fff;
+	padding: 6px 11px;
+	font-size: .8rem;
+}
+
+.label-danger-custom {
+	background: #E76453;
+	border-radius: 3px;
+	color: #fff;
+	padding: 6px 11px;
+	font-size: .8rem;
+}
+
+.label-warning-custom {
+	background: #E7AB53;
+	border-radius: 3px;
+	color: #fff;
+	padding: 6px 11px;
+	font-size: .8rem;
+}
+
+.alumni-auth .content-wrapper>.content {
+	padding: 1rem !important;
+}
+
+.button-sidebar-active {
+	background: #10305D !important;
+	color: #fff !important;
+}
+
+.button-sidebar {
+	background: #fff !important;
+	color: #10305D !important;
+}
+
+.breadcrumb {
+	background: transparent !important;
+	padding: 0 !important;
+}
+
+.os-content {
+	padding: 0.5rem 0 !important;
+}
+
+.list-group-item:last-child {
+	border-bottom-right-radius: 0 !important;
+	border-bottom-left-radius: 0 !important;
+}
+
+.list-group-item:first-child {
+	border-top-left-radius: 0 !important;
+	border-top-right-radius: 0 !important;
+}
+
+.button-primary-custom {
+	background: #10305D !important;
+	color: #fff !important;
+	border-radius: 10px !important;
+}
+
+.button-primary-custom:hover {
+	background: #005C8A !important;
+	color: #fff;
+}
+
+.button-secondary-custom {
+	background: transparent !important;
+	border: 1px solid #10305D !important;
+	color: #10305D !important;
+	border-radius: 10px !important;
+}
+
+.button-grey-disabled {
+	background: #999999;
+	color: #fff;
+	border-radius: 10px !important;
+}
+
+.button-grey-disabled:hover {
+	background: #999999;
+	color: #fff;
+	border-radius: 10px !important;
+}
+
+.form-tabs .nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+	background: #fff;
+	color: #10305D;
+	border-bottom: 3px solid #10305D;
+	border-radius: 0;
+}
+
+.form-tabs .nav-pills .nav-link:hover {
+	background: #fff;
+	color: #005C8A;
+	border-bottom: 3px solid #005C8A;
+	border-radius: 0;
+}
+
+.form-tabs .nav-pills .nav-link {
+	color: #999999;
+}
+
+.modal-feedback .modal-footer {
+	border-top: none !important;
+	padding-top: 0;
+}
+
+/* ======== riwayat pekerjaan page ======== */
+
+.table-full #full-table {
+	width: 100% !important;
+}
+
+
+/* ======== wisuda page =========== */
+.jadwal-wisudaku .card,
+.jadwal-wisudaall .card {
+	border: 2px solid #10305D;
+	box-sizing: border-box;
+	border-radius: 10px;
+}
+
+.jadwal-wisudaku table td {
+	padding: 0;
+	border: none;
+}
+
+.jadwal-wisudaall .my-custom-scrollbar {
+	position: relative;
+	height: 200px;
+	overflow: auto;
+}
+
+.jadwal-wisudaall .table-wrapper-scroll-y {
+	display: block;
+}
+
+/* form input foto */
+.container-foto {
+	display: flex;
+	flex-flow: column nowrap;
+	align-items: start;
+}
+
+.container-foto .btn-upload {
+	margin-bottom: 20px;
+	padding: 12px 20px;
+	color: #fff;
+	text-align: center;
+	background: #10305D;
+	border-radius: 8px;
+	font-size: 14px;
+	font-weight: 100 !important;
+}
+
+.container-foto .preview-box {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	max-width: 300px;
+	height: 200px;
+	border: 1px solid #e0e0e0;
+	background-color: #fafafa;
+}
+
+.container-foto .preview-content {
+	width: 300px;
+	height: inherit;
+}
+
+.container-foto .preview-box .text {
+	padding-top: 5.3rem;
+}
+
+.detail-pesan .from .mdi::before {
+	font-size: 14px !important;
+}
+
+table.table-alumni .aksi .btn-sm {
+	padding: .25rem 0rem !important;
+}
+
+/* biodata alumni page */
+@media (max-width: 768px) {
+
+	/* .m-navpill .nav-pills {
+		width: 100%;
+		margin-left: 0;
+		margin-right: 0;
+	} */
+
+
+	.m-navpill .tab-pane {
+		margin: 3rem 0;
+	}
+
+	.img-col-md {
+		display: none;
+	}
+
+	.img-col-xs {
+		display: block;
+	}
+
+	.img-col-xs img {
+		position: relative;
+		display: inline-block;
+		left: 30%;
+		transform: translate(-50%);
+	}
+
+	.label-xs {
+		font-size: .6rem;
+	}
+
+	.label-xs-mt {
+		margin-top: 1rem;
+		float: left !important;
+	}
+}
+
+@media (min-width: 767px) {
+
+	/* .m-navpill .nav-pills {
+		width: 50%;
+		margin-left: auto;
+		margin-right: auto;
+	} */
+	.m-navpill .nav-pills .tab-two,
+	.tab-three {
+		width: 9.5rem;
+		text-align: center;
+	}
+
+	.m-navpill .tab-pane {
+		margin: 3rem 7rem;
+	}
+
+	.img-col-md {
+		display: block;
+	}
+
+	.img-col-xs {
+		display: none;
+	}
+}
