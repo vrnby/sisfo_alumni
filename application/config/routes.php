@@ -67,6 +67,13 @@ $route['carinim'] = 'akun/carinim';
 $route['carinim/identifikasi'] = 'akun/identifikasi';
 $route['bantuan'] = 'landingpage/bantuan';
 
+
+// reset pass
+$route['reset'] = 'akun/email_reset_password_validation';
+$route['resetpass/(:any)'] = 'akun/laman_pass';
+$route['passreset'] = 'akun/reset_pass';
+
+
 // Admin routes
 $route['admin'] = 'admin_c/index';
 $route['admin/dashboard'] = 'admin_c/dashboard';

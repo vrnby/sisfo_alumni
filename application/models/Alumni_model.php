@@ -512,15 +512,36 @@ class Alumni_model extends CI_MODEL
         return $output;
     }
 
+	public function getData($t, $w = null) 
+	{
+		if ($w != null) {
+			$this->db->where($w);
+			return $this->db->get($t);
+		}else{
+			return $this->db->get($t);
+		}
+	}
+
     public function add($data)
     {
         $this->db->insert('alumni', $data);
+    }
+
+	public function addIns($t, $data)
+    {
+       return $this->db->insert($t, $data);
     }
 
     public function update($nim, $data)
     {
         $this->db->where('nim', $nim);
         $this->db->update('alumni', $data);
+    }
+
+	public function updateData($t, $w, $data)
+    {
+        $this->db->where($w);
+        return $this->db->update($t, $data);
     }
 
     public function delete($nim)

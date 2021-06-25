@@ -37,12 +37,13 @@
                             <h2 class="fs-primary color-primary mb-5"><span class="text-bold">Reset</span> Password Anda</h2>
                         </div>
 
-                        <form action="" method="post" class="col-md-8">
+                        <form action="<?= base_url('reset') ?>" method="post" class="col-md-8">
                             <h6 class="fs-secondary text-grey-dark mb-3">Bagaimana Anda ingin mendapatkan link untuk mereset password Anda?</h6>
                             <h6 class="fs-secondary text-grey-dark mb-3">Kirim link reset password melalui<br />
                                 <span class="p fs-secondary">
-                                    f***@*****
+                                    <?= $email['mail']; ?>
                                 </span>
+								<input type="email" name="email" value="<?= $email['email'] ?>" hidden>
                             </h6>
                             <a href="<?php echo base_url() ?>kontakkami" class="fs-secondary color-primary">Tidak punya akses lagi?</a>
 

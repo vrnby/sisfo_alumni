@@ -34,25 +34,21 @@
 					</div>
 					<div class="col-md-8">
 						<div class="text-center">
-							<h2 class="fs-primary color-primary mb-5"><span class="text-bold">Temukan</span> Akun Anda</h2>
+							<h2 class="fs-primary color-primary mb-5"><span class="text-bold">Reset</span> Password Anda</h2>
 						</div>
-						<?php if (isset($this->session->status_login) && $this->session->status_login == "nim_not_found") { ?>
-							<?php unset($_SESSION['status_login']); ?>
-							<div class="alert alert-danger alert-dismissible">
-								<a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
-								Nim tidak ditemukan!
-							</div>
-						<?php } ?>
-						<form action="<?= base_url('carinim/identifikasi') ?>" method="post" class="col-md-8">
-							<h6 class="fs-secondary text-grey-dark mb-3">Masukkan NIM Anda untuk mencari akun Anda.</h6>
+					
+						<form action="<?= base_url('passreset') ?>" method="post" class="col-md-8">
+							<h6 class="fs-secondary text-grey-dark mb-3">Masukkan Password Baru Anda</h6>
+							<input type="text" name="key" value="<?= $this->uri->segment(2); ?>" hidden>
 							<div class="form-floating mb-3">
-								<input type="text" id="nim" name="nim" class="fs-secondary text-grey-light form-control" placeholder="NIM" required>
-								<label for="nim" class="fs-secondary text-grey-dark">NIM</label>
+								<input type="password" id="pass" name="pass" class="fs-secondary text-grey-light form-control" minlength="8" placeholder="password baru" required>
+								<label for="nim" class="fs-secondary text-grey-dark">Password</label>
 							</div>
+							
 
 							<div class="text-center">
 								<a href="<?php echo base_url() ?>login" class="btn button-secondary-custom fs-secondary mt-5 ps-4 pe-4" id="login" name="login">Batalkan</a>
-								<button type="submit" class="btn button-primary-custom fs-secondary mt-5 ms-3 ps-4 pe-4" id="login">Cari</button>
+								<button type="submit" class="btn button-primary-custom fs-secondary mt-5 ms-3 ps-4 pe-4" id="login">Save</button>
 							</div>
 					</div>
 					</form>
